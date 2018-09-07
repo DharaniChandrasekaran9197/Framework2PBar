@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.265 sec <<< FAILURE! - in TestSuite
+BeforeMain on maven_testing_framework.framework.Main[,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=](maven_testing_framework.framework.Main)  Time elapsed: 0.995 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at maven_testing_framework.framework.Main.getCaseCount(Main.java:338)
+	at maven_testing_framework.framework.Main.BeforeMain(Main.java:71)
+
